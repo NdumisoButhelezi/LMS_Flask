@@ -1,6 +1,6 @@
 import pytest
-from app import create_app
-from config import Config
+from Public.app import create_app
+from Public.config import Config
 
 class TestConfig(Config):
     TESTING = True

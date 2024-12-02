@@ -2,7 +2,7 @@ from flask import Flask
 from routes.storage import storage_bp
 from routes.ai_models import ai_bp
 from routes.views import views_bp
-from config import Config
+from Public.config import Config
 
 def create_app(config_class=Config):
     """Application factory function."""

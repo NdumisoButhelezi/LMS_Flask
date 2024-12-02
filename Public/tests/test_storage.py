@@ -1,7 +1,7 @@
 import pytest
 from io import BytesIO
 import os
-from config import Config
+from Public.config import Config
 
 def test_upload_file(client):
     data = {
